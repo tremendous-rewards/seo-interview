@@ -28,7 +28,7 @@ How would design the routing (URL structure)?
 
 We have struck a deal with a new API partner who will providing companies by name.  They only offer a single endpoint which returns a array of thousands of company names:
 
-> [GET] https://tremendous-ap.com/stuff/companies
+> [GET] https://seo-interview.herokuapp.com/companies
 
 ```response.json
 {
