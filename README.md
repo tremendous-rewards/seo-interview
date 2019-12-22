@@ -36,4 +36,4 @@ We have struck a deal with a new API partner who will providing companies by nam
 }
 ```
 
-Grab this list, store it in either our Postgres or Redis database, and then server side render (using a framework of your choice) the SEO hierarchy into HTML pages (no CSS styling required).
+Grab this list, store it in either our Postgres or Redis database, and then render (using a framework of your choice) the SEO hierarchy into HTML pages (no CSS styling required).
