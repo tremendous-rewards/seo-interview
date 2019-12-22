@@ -32,7 +32,7 @@ We have struck a deal with a new API partner who will providing companies by nam
 
 ```response.json
 {
-	companies: ["Abafaf", "Bezfaofu", ...]
+	"companies": ["Abafaf", "Bezfaofu", "...""]
 }
 ```
 
