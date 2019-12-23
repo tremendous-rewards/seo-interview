@@ -3,19 +3,18 @@
 
 ### Overview
 
-SEO is about structuring your site correctly so that Google indexes and ranks pages well. All of the major sites (FB, Linkedin, etc) use a sort of directory structure to make their pages accessible to Google.
+SEO is about structuring your site correctly so that Google indexes and ranks pages well. All of the major sites (FB, Linkedin, etc) use a directory structure to make their pages accessible to Google.
 
 Check out: https://angel.co/directory/companies/a
 LinkedIn Version: https://www.linkedin.com/directory/companies-a/
 
 ### Part I: Architectural Conceptualization
 
-Suppose you have a users with 500K rows. How would you go about implementing such a directory? The conditions for this directory are:
+Suppose you have a users table with 500K rows. How would you go about implementing such a directory? The conditions for this directory are:
 
-1. You want to minimize the number of clicks to get to any company profile
+1. You want to minimize the number of clicks to get to any company profile.
 2. Fewer clicks means Google perceives higher authority for the page and ranks it higher in search.
-2. Google's guidelines on SEO ask you to limit the number of links per page to 100
-   a. This excludes navigational links.
+2. Google's guidelines on SEO ask you to limit the number of links per page to 100. This excludes navigational links.
 3. Google's going to crawl these pages, so you need the pages to load fast.
 4. New users keep getting added every day and you'll want the directory to get updated regularly.
 5. Organize the directory alphabetically, with the top-level nodes being A..Z
