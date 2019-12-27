@@ -1,6 +1,5 @@
 ## SEO Directory Architecture Interview
 
-
 ### Overview
 
 SEO is about structuring your site correctly so that Google indexes and ranks pages well. All of the major sites (FB, Linkedin, etc) use a sort of directory structure to make their pages accessible to Google.
@@ -17,12 +16,12 @@ Suppose you have a companies with 500K rows. How would you go about implementing
 2. Fewer clicks means Google perceives higher authority for the page and ranks it higher in search.
 2. Google's guidelines on SEO ask you to limit the number of links per page to 100 (excluding navigational links)
 3. Google's going to crawl these pages, so you need the pages to load fast.
-4. New users keep getting added every day and you'll want the directory to get updated regularly.
+4. New companies keep getting added every day and you'll want the directory to get updated regularly.
 5. Organize the directory alphabetically, with the top-level nodes being A..Z
 
-How would you represent this data in the backend?
+- How would you represent this data in the backend?
+- How would design the routing (URL structure)?
 
-How would design the routing (URL structure)?
 
 ### Part 2: Implementation
 
@@ -32,7 +31,7 @@ We have struck a deal with a new API partner who will providing companies by nam
 
 ```response.json
 {
-	"companies": ["Abafaf", "Bezfaofu", "...""]
+	"companies": ["Abafaf", "Bezfaofu", "..."]
 }
 ```
 
