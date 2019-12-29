@@ -10,7 +10,7 @@ Check out:
 
 ### Part I: Architecture
 
-Suppose you have a companies with 500K rows. How would you go about implementing such a directory? The conditions for this directory are:
+Suppose you 500K company names (rows). How would you go about implementing such a directory? The conditions for this directory are:
 
 1. You want to minimize the number of clicks to get to any company profile
 2. Fewer clicks means Google perceives higher authority for the page and ranks it higher in search.
